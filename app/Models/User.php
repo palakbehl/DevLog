@@ -46,4 +46,23 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function posts()
+{
+    return $this->hasMany(Post::class);
+}
+
+public function projects()
+{
+    return $this->hasMany(Project::class);
+}
+public function isAdmin()
+{
+    return $this->role === 'admin';
+}
+
+public function isAuthor() // Check if the user is an author , User.php is the model for the users table, and this method checks if the user's role is 'author'. It returns true if the user is an author, and false otherwise.
+{
+    return $this->role === 'author';
+}
 }

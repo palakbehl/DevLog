@@ -1,0 +1,29 @@
+# DevLog CMS Redesign Tasks
+
+- `[x]` Create Reusable Blade Components
+    - `[x]` Card component (`components/card.blade.php`)
+    - `[x]` Button component (`components/button.blade.php`)
+    - `[x]` Form Input component (`components/form-input.blade.php`)
+    - `[x]` Textarea component (`components/textarea.blade.php`)
+    - `[x]` Stat Card component (`components/stat-card.blade.php`)
+    - `[x]` Alert component (`components/alert.blade.php`)
+- `[x]` Redesign Layouts
+    - `[x]` App Layout with custom Sidebar & Topbar (`layouts/app.blade.php`)
+    - `[x]` Guest Layout (`layouts/guest.blade.php`)
+- `[x]` Redesign Auth Pages
+    - `[x]` Login Page (`auth/login.blade.php`)
+    - `[x]` Register Page (`auth/register.blade.php`)
+- `[x]` Redesign Dashboard (`dashboard.blade.php`)
+- `[x]` Redesign Posts Pages
+    - `[x]` Index Table page with edit workaround (`posts/index.blade.php`)
+    - `[x]` Create Post form (`posts/create.blade.php`)
+    - `[x]` Edit Post form (`posts/edit.blade.php`)
+- `[x]` Redesign Projects Pages
+    - `[x]` Index Table page (`projects/index.blade.php`)
+    - `[x]` Create Project form (`projects/create.blade.php`)
+    - `[x]` Edit Project form (`projects/edit.blade.php`)
+- `[x]` Redesign Welcome Gateway (`welcome.blade.php`)
+    - `[x]` Public Homepage (Hero, Latest Posts, Featured Projects, About)
+    - `[x]` Public Blog Details View (`?post=slug`)
+    - `[x]` Public Portfolio View (`?view=portfolio`)
+- `[x]` Verify build & pages
